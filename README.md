@@ -12,7 +12,7 @@ Live token usage for ZCode, two flavours: a real-time bar under the input box (W
 ⟳ 2 turns 59 steps · 196 tok/s ⛁ 21.1M tok · Cache hit 49% ◉ 27%
 ```
 
-![Reply statusline](assets/statusline-reply.svg)
+![Reply statusline](assets/statusline-reply.png)
 
 ## Quick start
 
