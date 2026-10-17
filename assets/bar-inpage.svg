@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+  <rect width="760" height="360" rx="12" fill="#16171a"/>
+  <rect x="0" y="0" width="760" height="36" rx="12" fill="#1f2023"/>
+  <rect y="24" width="760" height="12" fill="#1f2023"/>
+  <circle cx="24" cy="18" r="5" fill="#3a3d43"/>
+  <circle cx="42" cy="18" r="5" fill="#3a3d43"/>
+  <circle cx="60" cy="18" r="5" fill="#3a3d43"/>
+  <text x="80" y="23" font-size="13" fill="#8f9196">ZCode</text>
+
+  <rect x="40" y="60" width="420" height="34" rx="9" fill="#26272b"/>
+  <text x="56" y="82" font-size="13" fill="#c9ccd2">帮我看看这个函数的性能问题</text>
+
+  <rect x="180" y="104" width="540" height="58" rx="9" fill="#26272b"/>
+  <text x="196" y="126" font-size="13" fill="#c9ccd2">主要耗时在循环里的重复计算，已给出优化版本…</text>
+  <text x="196" y="146" font-size="13" fill="#8f9196">+ 3 more lines</text>
+
+  <rect x="40" y="196" width="680" height="76" rx="12" fill="#1f2023" stroke="#3a3d43" stroke-width="1.5"/>
+  <text x="60" y="224" font-size="14" fill="#6b6e75">Type a message…</text>
+  <circle cx="688" cy="234" r="14" fill="#3a3d43"/>
+  <text x="688" y="239" font-size="13" fill="#d8d9dd" text-anchor="middle">↑</text>
+
+  <g font-size="12" fill="#9a9da4">
+    <text x="150" y="296">⟳  2 turns 59 steps · 196 tok/s</text>
+    <text x="380" y="296">⛁  21.1M tok · Cache hit 49%</text>
+    <g transform="translate(600,288)">
+      <circle cx="6" cy="6" r="5" fill="none" stroke="#4a4d54" stroke-width="1.6"/>
+      <circle cx="6" cy="6" r="5" fill="none" stroke="#d8d9dd" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="8.5 31.4" transform="rotate(-90 6 6)"/>
+      <text x="17" y="10" font-size="12" fill="#9a9da4">27%</text>
+    </g>
+  </g>
+  <text x="40" y="330" font-size="11" fill="#5b5e65">in-page bar · injected under the input box, themed with ZCode variables</text>
+</svg>

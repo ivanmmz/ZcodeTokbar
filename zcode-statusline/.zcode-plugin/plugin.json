@@ -1,0 +1,23 @@
+{
+  "name": "zcode-statusline",
+  "version": "0.1.1",
+  "description": "Toolbar-style usage footer for ZCode: appends a one-line status bar (turns, steps, tok/s, session tokens, cache-hit rate) to the end of every reply, computed from the real ZCode usage database.",
+  "description_i18n": {
+    "en": "Toolbar-style usage footer: every reply ends with one real status line — turns, steps, tok/s, session tokens and cache-hit rate — read from the ZCode usage database.",
+    "zh-CN": "ZCode 状态栏：每条回复末尾附一行真实用量（轮数、步数、tok/s、会话 token 总量、缓存命中率），数据取自 ZCode usage 数据库。"
+  },
+  "author": {
+    "name": "ZcodeTokbar Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "statusline",
+    "usage",
+    "tokens",
+    "cache",
+    "tok/s",
+    "footer"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands"
+}

@@ -1,0 +1,20 @@
+{
+  "description": "zcode-statusline: 每轮末尾附一行真实用量状态栏",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "node",
+            "args": [
+              "${ZCODE_PLUGIN_ROOT}/hooks/prompt-submit.mjs"
+            ],
+            "timeoutMs": 8000,
+            "statusMessage": "zcode-statusline: 准备状态栏…"
+          }
+        ]
+      }
+    ]
+  }
+}

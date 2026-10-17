@@ -1,0 +1,27 @@
+# Runtime artifacts (generated at install / run time, never commit)
+scripts/paths.ini
+scripts/controller.log
+scripts/controller.log.1
+scripts/state.json
+scripts/shortcut-heal.log
+scripts/ZCode.lnk.backup
+*.lnk.backup
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Node
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local config overrides
+*.local.json

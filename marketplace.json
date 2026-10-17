@@ -1,0 +1,18 @@
+{
+  "name": "zcode-tokbar",
+  "plugins": [
+    {
+      "name": "zcode-statusline",
+      "source": "./zcode-statusline",
+      "version": "0.1.1",
+      "description": "Toolbar-style usage footer for ZCode: appends a one-line status bar (turns, steps, tok/s, session tokens, cache-hit rate) to the end of every reply, computed from the real ZCode usage database.",
+      "displayName": "ZCode Statusline",
+      "displayName_i18n": {
+        "zh-CN": "ZCode 状态栏"
+      },
+      "description_i18n": {
+        "zh-CN": "每条回复末尾附一行真实用量状态栏(轮数/步数/tok/s/会话 token 总量/缓存命中率),数据取自 ZCode usage 数据库。"
+      }
+    }
+  ]
+}

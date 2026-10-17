@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+  <rect width="240" height="320" rx="12" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="0" y="0" width="240" height="56" rx="12" fill="#1677ff"/>
+  <rect y="44" width="240" height="12" fill="#1677ff"/>
+  <text x="120" y="26" font-size="15" text-anchor="middle" fill="#ffffff">支付宝捐赠</text>
+  <text x="120" y="45" font-size="11" text-anchor="middle" fill="#cfe1ff">Alipay Donation</text>
+  <rect x="40" y="76" width="160" height="160" fill="#f5f5f5" stroke="#d9d9d9" stroke-dasharray="6 4"/>
+  <text x="120" y="146" font-size="13" text-anchor="middle" fill="#8c8c8c">把收款码 PNG</text>
+  <text x="120" y="166" font-size="13" text-anchor="middle" fill="#8c8c8c">放到这里替换</text>
+  <text x="120" y="262" font-size="12" text-anchor="middle" fill="#595959">觉得有用请喝杯咖啡 ☕</text>
+  <text x="120" y="282" font-size="11" text-anchor="middle" fill="#8c8c8c">assets/alipay.png</text>
+  <text x="120" y="300" font-size="11" text-anchor="middle" fill="#8c8c8c">240 × 320 · overwrite me</text>
+</svg>
